@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="5047" name-counter="1" event-counter="39904" vca-counter="1">
+<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="6589" name-counter="1" event-counter="43287" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
-  <EngineHints backend="ALSA" input-device="UMC1820" output-device="UMC1820"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
     <Port name="MMC in" direction="input"/>
@@ -9,7 +8,9 @@
     <Port name="MTC out" direction="output"/>
     <Port name="Scene in" direction="input"/>
     <Port name="Scene out" direction="output"/>
-    <Port name="x-virtual-keyboard" direction="output"/>
+    <Port name="x-virtual-keyboard" direction="output">
+      <Connection other="ardour:MIDI lead/midi_in 1"/>
+    </Port>
   </MIDIPorts>
   <Config>
     <Option name="use-region-fades" value="1"/>
@@ -104,7 +105,9 @@
     <Region name="vocals-3.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="478800" length="170100" position="1417500" beat="56.25" sync-position="478800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1673" type="audio" first-edit="nothing" source-0="774" master-source-0="774" channels="1"/>
     <Region name="vocals-4.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="466200" length="151200" position="1436400" beat="57" sync-position="466200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1683" type="audio" first-edit="nothing" source-0="873" master-source-0="873" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="1362" control="0" order="0"/>
+  </Selection>
   <Locations>
     <Location id="242" name="session" start="302400" end="8769600" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
     <Location id="471" name="Loop" start="302400" end="8769600" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
@@ -348,7 +351,9 @@ using jazz gutar in yoshimi mysterious bank </Comment>
       <Controllable name="solo-iso" id="1376" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1378" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="MIDI lead" id="1390" direction="Input" default-type="midi">
-        <Port type="midi" name="MIDI lead/midi_in 1"/>
+        <Port type="midi" name="MIDI lead/midi_in 1">
+          <Connection other="x-virtual-keyboard"/>
+        </Port>
       </IO>
       <IO name="MIDI lead" id="1391" direction="Output" default-type="midi">
         <Port type="audio" name="MIDI lead/audio_out 1">
@@ -372,6 +377,8 @@ using jazz gutar in yoshimi mysterious bank </Comment>
         <AutomationList automation-id="phase" id="1373" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="monitor" id="1401" interpolation-style="Discrete" state="Off"/>
       </Automation>
+      <Comment>*notes*
+Yoshimi Synth Reeeed sound used</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="1381" flags="" value="0.5"/>
         <Controllable name="pan-width" id="1385" flags="" value="1"/>
@@ -678,10 +685,10 @@ using jazz gutar in yoshimi mysterious bank </Comment>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="643" y-size="499"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="649" y-off="325" x-size="622" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

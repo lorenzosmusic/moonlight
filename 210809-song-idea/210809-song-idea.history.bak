@@ -160,8 +160,8 @@
     <StatefulDiffCommand obj-id="517" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Add id="1655"/>
           <Add id="1646"/>
+          <Add id="1655"/>
           <Remove id="859"/>
         </Regions>
       </Changes>

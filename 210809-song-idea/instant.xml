@@ -2,25 +2,23 @@
 <instant>
   <LastUsedSnapshot name="210809-song-idea"/>
   <Main x="0" y="30" w="1920" h="1021" current-tab="editor"/>
-  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="3236" grid-type="GridTypeBeat" snap-mode="SnapNormal" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapNormal" pre-internal-grid-type="GridTypeBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="2872800" left-frame="186445" y-origin="0" maximised="0" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="220500">
+  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="3236" grid-type="GridTypeBeat" snap-mode="SnapNormal" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapNormal" pre-internal-grid-type="GridTypeBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="907200" left-frame="186445" y-origin="0" maximised="0" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="220500">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
+      <StripableView id="162"/>
       <MIDINotes region-id="543">
         <note note-id="109955"/>
       </MIDINotes>
-      <MIDINotes region-id="11351">
-        <note note-id="122095"/>
-      </MIDINotes>
-      <Marker id="242" start="0"/>
+      <Marker id="471" start="0"/>
     </Selection>
     <RegionList/>
     <EditorLocations clock-mode="BBT"/>
   </Editor>
-  <Mixer mixer-rhs-pane1-pos="0.60000002384185791" mixer-rhs_pane2-pos="0.69999998807907104" mixer-list-hpane-pos="0.20000000298023224" mixer-inner-pane-pos="0.80000001192092896" narrow-strips="0" show-mixer="1" maximised="0" show-mixer-list="1" monitor-section-visible="0" foldback-strip-visible="1" show-vca-pane="1">
+  <Mixer mixer-rhs-pane1-pos="0.60000002384185791" mixer-rhs_pane2-pos="0.69999998807907104" mixer-list-hpane-pos="0.082985386252403259" mixer-inner-pane-pos="0.80000001192092896" narrow-strips="0" show-mixer="1" maximised="0" show-mixer-list="1" monitor-section-visible="0" foldback-strip-visible="1" show-vca-pane="1">
     <Window name="Mixer" visible="1" x-off="0" y-off="30" x-size="1920" y-size="1019" tabbed="0"/>
   </Mixer>
   <Preferences>

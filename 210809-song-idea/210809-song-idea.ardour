@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="11457" name-counter="1" event-counter="128434" vca-counter="1">
+<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="12598" name-counter="1" event-counter="129622" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -143,10 +143,12 @@
     <Region name="vocals-13" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="182272" position="4158000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11038" type="audio" first-edit="nothing" source-0="10827" master-source-0="10827" channels="1"/>
     <Region name="MIDI lead-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="50400" position="4233600" beat="168" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="9" tags="" contents="0" start-beats="0" length-beats="2" id="11416" type="midi" first-edit="nothing" source-0="1449" master-source-0="1449"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="162" control="0" order="0"/>
+  </Selection>
   <Locations>
     <Location id="242" name="session" start="302400" end="4536000" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
-    <Location id="471" name="Loop" start="3326400" end="3628800" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
+    <Location id="471" name="Loop" start="907200" end="4536000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -314,7 +316,7 @@ using jazz_gutar in yoshimi mysterious bank </Comment>
       <Controllable name="rec-safe" id="200" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="198" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="475" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="517" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="475" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="517" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="1925637631"/>
       <Controllable name="solo" id="483" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="489" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -359,7 +361,6 @@ using jazz_gutar in yoshimi mysterious bank </Comment>
           <AutomationList automation-id="pan-lfe" id="501" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="507" name="meter-vocals" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="516" name="vocals" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="516" name="vocals" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="4757" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
@@ -375,13 +376,14 @@ using jazz_gutar in yoshimi mysterious bank </Comment>
         </Automation>
         <Controllable name="gaincontrol" id="479" flags="GainLike" value="1"/>
       </Processor>
+      <Processor id="507" name="meter-vocals" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="508" name="vocals" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="vocals" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
       <Controllable name="monitor" id="515" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="513" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="511" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="511" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="1362" name="MIDI lead" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="1404" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="3" flags="MidiTrack,OrderSet" color="2095431167"/>
@@ -718,7 +720,7 @@ Yoshimi Synth Reeeed sound used</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-11.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121552" length="407648" position="3901552" beat="154.82349206349207" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10725" type="audio" first-edit="nothing" source-0="10706" master-source-0="10706" channels="1">
+      <Region name="vocals-11.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121552" length="407648" position="3901552" beat="154.82349206349207" sync-position="121552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10725" type="audio" first-edit="nothing" source-0="10706" master-source-0="10706" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="10730" interpolation-style="Exponential" state="Off">
             <events>0 1.0000001000000001
@@ -755,7 +757,7 @@ Yoshimi Synth Reeeed sound used</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-12.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121552" length="407648" position="3901552" beat="154.82349206349207" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10808" type="audio" first-edit="nothing" source-0="10744" master-source-0="10744" channels="1">
+      <Region name="vocals-12.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="121552" length="407648" position="3901552" beat="154.82349206349207" sync-position="121552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10808" type="audio" first-edit="nothing" source-0="10744" master-source-0="10744" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="10813" interpolation-style="Exponential" state="Off">
             <events>0 1.0000001000000001
@@ -792,7 +794,7 @@ Yoshimi Synth Reeeed sound used</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-13.1" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="71546" length="110726" position="4229546" beat="167.83912698412701" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11046" type="audio" first-edit="nothing" source-0="10827" master-source-0="10827" channels="1">
+      <Region name="vocals-13.1" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="71546" length="110726" position="4229546" beat="167.83912698412701" sync-position="71546" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11046" type="audio" first-edit="nothing" source-0="10827" master-source-0="10827" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="11051" interpolation-style="Exponential" state="Off">
             <events>0 1.0000002000000001

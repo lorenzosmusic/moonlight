@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="23004" name-counter="1" event-counter="276169" vca-counter="1">
+<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="27990" name-counter="1" event-counter="326095" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -111,6 +111,12 @@
     <Source name="Calf Organ-5.mid" take-id="2024-07-28 00.16.57" type="midi" flags="Writable,CanRename" id="22345" natural-position="302400" captured-for="Calf Organ" origin=""/>
     <Source name="Yoshimi bass-3.mid" take-id="2024-07-28 00.47.29" type="midi" flags="Writable,CanRename" id="22512" natural-position="302400" captured-for="Yoshimi bass" origin=""/>
     <Source name="Yoshimi bass-4.mid" take-id="2024-07-28 00.48.39" type="midi" flags="Writable,CanRename" id="22587" natural-position="302400" captured-for="Yoshimi bass" origin=""/>
+    <Source name="piano-1.wav" take-id="2024-07-30 00.02.00" type="audio" flags="" id="27712" timestamp="1722315720" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
+    <Source name="piano-2.wav" take-id="2024-07-30 00.04.38" type="audio" flags="" id="27760" timestamp="1722315878" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
+    <Source name="piano-3.wav" take-id="2024-07-30 00.06.18" type="audio" flags="" id="27797" timestamp="1722315978" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
+    <Source name="piano-4.wav" take-id="2024-07-30 00.10.10" type="audio" flags="" id="27840" timestamp="1722316210" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
+    <Source name="piano-5.wav" take-id="2024-07-30 00.14.54" type="audio" flags="" id="27880" timestamp="1722316494" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
+    <Source name="piano-6.wav" take-id="2024-07-30 00.16.22" type="audio" flags="" id="27926" timestamp="1722316582" natural-position="151200" captured-for="piano" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="midi-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="604800" position="1512000" beat="60" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" tags="" contents="0" start-beats="0" length-beats="24" id="537" type="midi" first-edit="nothing" source-0="237" master-source-0="237"/>
@@ -231,11 +237,22 @@
     <Region name="vocals-11.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="151200" length="378000" position="3931200" beat="156" sync-position="151200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="22709" type="audio" first-edit="nothing" source-0="10706" master-source-0="10706" channels="1"/>
     <Region name="vocals-12.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="163800" length="365400" position="3943800" beat="156.5" sync-position="163800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="22723" type="audio" first-edit="nothing" source-0="10744" master-source-0="10744" channels="1"/>
     <Region name="vocals-13.2" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="71546" length="110726" position="4229546" beat="167.83912698412701" sync-position="71546" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="22737" type="audio" first-edit="nothing" source-0="10827" master-source-0="10827" channels="1"/>
+    <Region name="piano-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2056688" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27728" type="audio" first-edit="nothing" source-0="27712" master-source-0="27712" channels="1"/>
+    <Region name="piano-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2056688" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27736" type="audio" first-edit="nothing" source-0="27712" master-source-0="27712" channels="1"/>
+    <Region name="piano-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="681456" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27770" type="audio" first-edit="nothing" source-0="27760" master-source-0="27760" channels="1"/>
+    <Region name="piano-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="681456" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27778" type="audio" first-edit="nothing" source-0="27760" master-source-0="27760" channels="1"/>
+    <Region name="piano-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3230192" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27808" type="audio" first-edit="nothing" source-0="27797" master-source-0="27797" channels="1"/>
+    <Region name="piano-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3239408" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27850" type="audio" first-edit="nothing" source-0="27840" master-source-0="27840" channels="1"/>
+    <Region name="piano-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="972784" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27899" type="audio" first-edit="nothing" source-0="27880" master-source-0="27880" channels="1"/>
+    <Region name="piano-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="972784" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27907" type="audio" first-edit="nothing" source-0="27880" master-source-0="27880" channels="1"/>
+    <Region name="piano-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3260400" position="151200" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27937" type="audio" first-edit="nothing" source-0="27926" master-source-0="27926" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="27665" control="0" order="3"/>
+  </Selection>
   <Locations>
     <Location id="242" name="session" start="302400" end="4586400" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
-    <Location id="471" name="Loop" start="1789200" end="2091600" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
+    <Location id="471" name="Loop" start="302400" end="907200" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -255,6 +272,7 @@
           <Connection other="keys bongos/audio_out 1"/>
           <Connection other="midi low/audio_out 1"/>
           <Connection other="midi/audio_out 1"/>
+          <Connection other="piano/audio_out 1"/>
           <Connection other="vocals/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
@@ -266,6 +284,7 @@
           <Connection other="keys bongos/audio_out 2"/>
           <Connection other="midi low/audio_out 2"/>
           <Connection other="midi/audio_out 2"/>
+          <Connection other="piano/audio_out 2"/>
           <Connection other="vocals/audio_out 2"/>
         </Port>
       </IO>
@@ -939,8 +958,8 @@ Yoshimi Synth Reeeed sound used</Comment>
         </Port>
         <Port type="midi" name="midi low/midi_out 1"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="13746" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="13746" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="13748" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="13743" interpolation-style="Discrete" state="Off"/>
@@ -1525,8 +1544,8 @@ Yoshimi Synth Reeeed sound used</Comment>
         </Port>
         <Port type="midi" name="Calf Organ/midi_out 1"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="21932" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="21932" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="21934" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="21929" interpolation-style="Discrete" state="Off"/>
@@ -2107,9 +2126,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Controllable name="solo-iso" id="22475" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="22477" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Yoshimi bass" id="22489" direction="Input" default-type="midi">
-        <Port type="midi" name="Yoshimi bass/midi_in 1">
-          <Connection other="a2j:Alesis Recital [28] (capture): Alesis Recital MIDI 1"/>
-        </Port>
+        <Port type="midi" name="Yoshimi bass/midi_in 1"/>
       </IO>
       <IO name="Yoshimi bass" id="22490" direction="Output" default-type="midi">
         <Port type="audio" name="Yoshimi bass/audio_out 1">
@@ -2173,7 +2190,7 @@ Yoshimi Synth Reeeed sound used</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state1">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="hidden" id="22573" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -2415,6 +2432,75 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Controllable name="monitor" id="22679" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="22677" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="22675" flags="Toggle,RealTime" value="0"/>
+    </Route>
+    <Route version="6000" id="27665" name="piano" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="27838" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3018170111"/>
+      <Controllable name="solo" id="27673" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="27679" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="27681" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="piano" id="27693" direction="Input" default-type="audio">
+        <Port type="audio" name="piano/audio_in 1">
+          <Connection other="system:capture_12"/>
+        </Port>
+      </IO>
+      <IO name="piano" id="27694" direction="Output" default-type="audio">
+        <Port type="audio" name="piano/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="piano/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="27675" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="27677" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="27672" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="27678" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="27680" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="27674" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="27704" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="27706" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="27676" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="27708" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="27684" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="27688" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="27686" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="27690" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="27692" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="27683" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="27685" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="27687" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="27689" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="27691" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="27699" name="meter-piano" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="27703" name="recorder:piano" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="27702" name="player:piano" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="27696" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="27698" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="27670" interpolation-style="Logarithmic" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="27671" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="27695" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="27668" interpolation-style="Exponential" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="27669" flags="GainLike" value="0.18831796944141388"/>
+      </Processor>
+      <Processor id="27700" name="piano" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="piano" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="27709" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="27707" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="27705" flags="Toggle,RealTime" value="1"/>
     </Route>
   </Routes>
   <Playlists>
@@ -5436,7 +5522,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Region name="Calf Organ-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="176400" length="327624" position="1789200" beat="71" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="7" length-beats="13.000952380952384" id="22290" type="midi" first-edit="nothing" source-0="21973" master-source-0="21973"/>
     </Playlist>
     <Playlist id="22506" name="Yoshimi bass" type="midi" orig-track-id="22461" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Yoshimi bass-4.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="604800" length="300642" position="604824" beat="24.000952380952381" sync-position="604800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" tags="" contents="0" start-beats="24" length-beats="11.930238095238099" id="22610" type="midi" first-edit="nothing" source-0="22587" master-source-0="22587"/>
+      <Region name="Yoshimi bass-4.2" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="604800" length="300642" position="604824" beat="24.000952380952381" sync-position="604800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" tags="" contents="0" start-beats="24" length-beats="11.930238095238099" id="22610" type="midi" first-edit="nothing" source-0="22587" master-source-0="22587"/>
       <Region name="Yoshimi bass-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="604800" length="907220" position="907200" beat="36" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="24" length-beats="36.000793650793653" id="22594" type="midi" first-edit="nothing" source-0="22587" master-source-0="22587"/>
       <Region name="Yoshimi bass-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="604800" length="907220" position="1814420" beat="72.000793650793653" sync-position="604800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" tags="" contents="0" start-beats="24" length-beats="36.000793650793653" id="22619" type="midi" first-edit="nothing" source-0="22587" master-source-0="22587"/>
       <Region name="Yoshimi bass-4.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="604800" length="604800" position="2721640" beat="108.00158730158729" sync-position="604800" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" tags="" contents="0" start-beats="24" length-beats="24.000000000000014" id="22626" type="midi" first-edit="nothing" source-0="22587" master-source-0="22587"/>
@@ -5468,6 +5554,39 @@ Yoshimi Synth Reeeed sound used</Comment>
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="22695" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27838" name="Take.2" type="audio" orig-track-id="27665" pgroup-id="2024-07-30 00.07.16" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="piano-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3239408" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27858" type="audio" first-edit="nothing" source-0="27840" master-source-0="27840" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27859" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27860" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27861" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27862" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -5535,6 +5654,72 @@ Yoshimi Synth Reeeed sound used</Comment>
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="16268" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27710" name="piano" type="audio" orig-track-id="27665" pgroup-id="2024-07-30 00.02.00" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="piano-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3260400" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27945" type="audio" first-edit="nothing" source-0="27926" master-source-0="27926" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27946" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27947" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27948" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27949" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="27758" name="Take.1" type="audio" orig-track-id="27665" pgroup-id="2024-07-30 00.02.53" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="piano-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3230192" position="151200" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="27816" type="audio" first-edit="nothing" source-0="27797" master-source-0="27797" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="27817" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="27818" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="27819" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="27820" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -5625,7 +5810,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="moonlight-drum-idea"/>
+        <Field name="label" enabled="1" value="moonlight-bass-organ-scratch"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -5639,7 +5824,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="652" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -5658,47 +5843,48 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Window name="dsp-statistics" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-22461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-21922" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-13736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-162" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-22635" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-475" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1362" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-20275" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-15679" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-17705" visible="0" x-off="711" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="PM-54-17705" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-21922-22027" visible="0" x-off="809" y-off="0" x-size="1111" y-size="835" custom-ui="1"/>
+      <Window name="P-21922-22382" visible="0" x-off="1056" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-21922-22027" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-21922-22382" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-13736-13823" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-13736-13823" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-162-228" visible="0" x-off="769" y-off="34" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="P-162-17479" visible="0" x-off="736" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-162-228" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-162-17479" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-22635-22890" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-22635-22909" visible="0" x-off="1195" y-off="0" x-size="490" y-size="237" custom-ui="1"/>
+      <Window name="PM-22635-22890" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-22635-22909" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-475-17623" visible="0" x-off="736" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="P-475-17693" visible="0" x-off="875" y-off="0" x-size="490" y-size="237" custom-ui="1"/>
       <Window name="PM-475-17623" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-475-17693" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1362-1440" visible="0" x-off="769" y-off="34" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="PM-1362-1440" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-20275-20509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-20275-20648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-20275-20509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-20275-20648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-15679-16029" visible="0" x-off="711" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="P-15679-16055" visible="0" x-off="736" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-15679-16029" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15679-16055" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-20275" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-20275-20509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-20275-20509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-20275-20648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-20275-20648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-21922" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-21922-22027" visible="0" x-off="594" y-off="0" x-size="1111" y-size="835" custom-ui="1"/>
-      <Window name="PM-21922-22027" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-21922-22382" visible="0" x-off="765" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
-      <Window name="PM-21922-22382" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-22461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-22635" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-22635-22890" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-22635-22890" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-22635-22909" visible="0" x-off="904" y-off="0" x-size="490" y-size="237" custom-ui="1"/>
-      <Window name="PM-22635-22909" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-27665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -6171,6 +6357,16 @@ Yoshimi Synth Reeeed sound used</Comment>
             <Object id="control 22987" visible="0"/>
             <Object id="control 22989" visible="0"/>
             <Object id="control 22991" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="rtav 27665" height="66" visible="1"/>
+        <Object id="automation 27669" height="66" visible="0"/>
+        <Object id="automation 27671" height="66" visible="0"/>
+        <Object id="automation 27665 12/0/0" height="66" visible="0"/>
+        <Object id="automation 27684" height="66" visible="0"/>
+        <Object id="strip 27665" strip-width="Wide" visible="1">
+          <Object id="processor 27695">
+            <Object id="control 27669" visible="0"/>
           </Object>
         </Object>
       </GUIObjectState>

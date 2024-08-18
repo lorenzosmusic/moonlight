@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="56738" name-counter="1" event-counter="713631" vca-counter="1">
+<Session version="6000" name="210809-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="63820" name-counter="1" event-counter="731952" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -598,6 +598,9 @@
     <Source name="cliff bass-3.wav" take-id="2024-08-07 22.20.12" type="audio" flags="" id="49550" timestamp="1723087212" natural-position="3175238" captured-for="cliff bass" channel="0" origin="" gain="1"/>
     <Source name="cliff bass-4.wav" take-id="2024-08-07 22.28.35" type="audio" flags="" id="49707" timestamp="1723087715" natural-position="756000" captured-for="cliff bass" channel="0" origin="" gain="1"/>
     <Source name="cliff bass-5.wav" take-id="2024-08-07 22.32.22" type="audio" flags="" id="49744" timestamp="1723087942" natural-position="756006" captured-for="cliff bass" channel="0" origin="" gain="1"/>
+    <Source name="bryan sax-1.wav" take-id="2024-08-14 23.03.44" type="audio" flags="" id="63695" timestamp="1723694624" natural-position="302400" captured-for="bryan sax" channel="0" origin="" gain="1"/>
+    <Source name="bryan sax-2.wav" take-id="2024-08-14 23.05.54" type="audio" flags="" id="63738" timestamp="1723694754" natural-position="302400" captured-for="bryan sax" channel="0" origin="" gain="1"/>
+    <Source name="bryan sax-3.wav" take-id="2024-08-14 23.08.34" type="audio" flags="" id="63781" timestamp="1723694914" natural-position="831607" captured-for="bryan sax" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="midi-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="604800" position="1512000" beat="60" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" tags="" contents="0" start-beats="0" length-beats="24" id="537" type="midi" first-edit="nothing" source-0="237" master-source-0="237"/>
@@ -814,9 +817,13 @@
     <Region name="cliff bass-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1468912" position="756000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49717" type="audio" first-edit="nothing" source-0="49707" master-source-0="49707" channels="1"/>
     <Region name="cliff bass-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1468912" position="756000" beat="30" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49725" type="audio" first-edit="nothing" source-0="49707" master-source-0="49707" channels="1"/>
     <Region name="cliff bass-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3939824" position="756006" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49774" type="audio" first-edit="nothing" source-0="49744" master-source-0="49744" channels="1"/>
+    <Region name="bryan sax-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2241008" position="302400" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63711" type="audio" first-edit="nothing" source-0="63695" master-source-0="63695" channels="1"/>
+    <Region name="bryan sax-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2241008" position="302400" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63719" type="audio" first-edit="nothing" source-0="63695" master-source-0="63695" channels="1"/>
+    <Region name="bryan sax-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4328944" position="302400" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63749" type="audio" first-edit="nothing" source-0="63738" master-source-0="63738" channels="1"/>
+    <Region name="bryan sax-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3799536" position="831607" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63791" type="audio" first-edit="nothing" source-0="63781" master-source-0="63781" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="49420" control="0" order="0"/>
+    <StripableAutomationControl stripable="63648" control="0" order="1"/>
   </Selection>
   <Locations>
     <Location id="242" name="session" start="302400" end="4586400" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1676792471"/>
@@ -837,6 +844,7 @@
           <Connection other="Chorus vocals/audio_out 1"/>
           <Connection other="MIDI lead/audio_out 1"/>
           <Connection other="Yoshimi bass/audio_out 1"/>
+          <Connection other="bryan sax/audio_out 1"/>
           <Connection other="cliff bass/audio_out 1"/>
           <Connection other="key bongos edit/audio_out 1"/>
           <Connection other="keys bongos/audio_out 1"/>
@@ -852,6 +860,7 @@
           <Connection other="Chorus vocals/audio_out 2"/>
           <Connection other="MIDI lead/audio_out 2"/>
           <Connection other="Yoshimi bass/audio_out 2"/>
+          <Connection other="bryan sax/audio_out 2"/>
           <Connection other="cliff bass/audio_out 2"/>
           <Connection other="key bongos edit/audio_out 2"/>
           <Connection other="keys bongos/audio_out 2"/>
@@ -4229,6 +4238,75 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Controllable name="monitor" id="49464" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="49462" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="49460" flags="Toggle,RealTime" value="0"/>
+    </Route>
+    <Route version="6000" id="63648" name="bryan sax" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="63779" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="3303634175"/>
+      <Controllable name="solo" id="63656" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="63662" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="63664" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="bryan sax" id="63676" direction="Input" default-type="audio">
+        <Port type="audio" name="bryan sax/audio_in 1">
+          <Connection other="system:capture_17"/>
+        </Port>
+      </IO>
+      <IO name="bryan sax" id="63677" direction="Output" default-type="audio">
+        <Port type="audio" name="bryan sax/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="bryan sax/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="63658" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="63660" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="63655" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="63661" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="63663" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="63657" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="63687" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="63689" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="63659" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="63691" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="63667" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="63671" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="63669" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="63673" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="63675" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="63666" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="63668" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="63670" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="63672" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="63674" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="63682" name="meter-bryan sax" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="63686" name="recorder:bryan sax" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="63685" name="player:bryan sax" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="63679" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="63681" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="63653" interpolation-style="Logarithmic" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="63654" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="63678" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="63651" interpolation-style="Exponential" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="63652" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="63683" name="bryan sax" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="bryan sax" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="63692" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="63690" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="63688" flags="Toggle,RealTime" value="1"/>
     </Route>
   </Routes>
   <Playlists>
@@ -7846,6 +7924,39 @@ Yoshimi Synth Reeeed sound used</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="63779" name="Take.5" type="audio" orig-track-id="63648" pgroup-id="2024-08-14 23.06.03" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="bryan sax-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3799536" position="831607" beat="33.000277777777775" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63799" type="audio" first-edit="nothing" source-0="63781" master-source-0="63781" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="63800" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="63801" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="63802" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="63803" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="2425" name="midi 1.1" type="midi" orig-track-id="2580" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
@@ -8228,6 +8339,39 @@ Yoshimi Synth Reeeed sound used</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="63693" name="bryan sax" type="audio" orig-track-id="63648" pgroup-id="2024-08-14 23.03.44" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="bryan sax-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4328944" position="302400" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63757" type="audio" first-edit="nothing" source-0="63738" master-source-0="63738" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="63758" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="63759" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="63760" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="63761" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </UnusedPlaylists>
   <RouteGroups/>
   <Click>
@@ -8311,7 +8455,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="moonlight-vocals-piano-drums"/>
+        <Field name="label" enabled="1" value="moonlight-cliff-bass"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -8359,6 +8503,8 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Window name="RPM-49420" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-17705" visible="0" x-off="711" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="PM-54-17705" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-49420-49636" visible="0" x-off="841" y-off="131" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-49420-49636" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-22461-33134" visible="0" x-off="932" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-22461-22571" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -8411,8 +8557,7 @@ Yoshimi Synth Reeeed sound used</Comment>
       <Window name="PM-34726-35748" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-34726-35799" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-34726-35938" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-49420-49636" visible="0" x-off="841" y-off="131" x-size="769" y-size="455" custom-ui="1"/>
-      <Window name="PM-49420-49636" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-63648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -9162,6 +9307,16 @@ Yoshimi Synth Reeeed sound used</Comment>
             <Object id="control 49698" visible="0"/>
             <Object id="control 49700" visible="0"/>
             <Object id="InlineDisplay" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="rtav 63648" height="66" visible="1"/>
+        <Object id="automation 63652" height="66" visible="0"/>
+        <Object id="automation 63654" height="66" visible="0"/>
+        <Object id="automation 63648 12/0/0" height="66" visible="0"/>
+        <Object id="automation 63667" height="66" visible="0"/>
+        <Object id="strip 63648" strip-width="Wide" visible="1">
+          <Object id="processor 63678">
+            <Object id="control 63652" visible="0"/>
           </Object>
         </Object>
       </GUIObjectState>

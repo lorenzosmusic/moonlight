@@ -7,6 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <state.ttl>
-	lv2:appliesTo <http://gareus.org/oss/lv2/fil4#mono> ;
+	lv2:appliesTo <http://yoshimi.sourceforge.net/lv2_plugin> ;
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> .

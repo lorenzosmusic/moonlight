@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="210809-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="121738" rg-counter="353" name-counter="1" event-counter="1728141" vca-counter="1">
+<Session version="7003" name="210809-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="130633" rg-counter="367" name-counter="1" event-counter="1744381" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,7 +10,6 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="midi/midi_in 1"/>
       <Connection other="midi/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -904,7 +903,7 @@
     <Region name="piano-16" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a2072473600@a28546560000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119776" type="audio" first-edit="nothing" source-0="118720" master-source-0="118720" channels="1"/>
     <Region name="piano-16.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a2072473600@a28546560000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="4896" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119784" type="audio" first-edit="nothing" source-0="118720" master-source-0="118720" channels="1"/>
     <Region name="piano-17" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a10369331200@a27095040000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119814" type="audio" first-edit="nothing" source-0="119803" master-source-0="119803" channels="1"/>
-    <Region name="piano-17.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a1935360000" length="a7741440000@a29030400000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="4912" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119822" type="audio" first-edit="nothing" source-0="119803" master-source-0="119803" channels="1"/>
+    <Region name="piano-17.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a1935360000" length="a7741440000@a29030400000" sync-position="a1935360000" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="4912" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119822" type="audio" first-edit="nothing" source-0="119803" master-source-0="119803" channels="1"/>
     <Region name="piano-17.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a1935360000" length="a7741440000@a29030400000" sync-position="a1935360000" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="59" tags="" contents="0" rgroup="4912" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="119945" type="audio" first-edit="nothing" source-0="119803" master-source-0="119803" channels="1"/>
     <Region name="piano-17.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a1935360000" length="a7741440000@a29030400000" sync-position="a1935360000" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="57" tags="" contents="0" rgroup="5136" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="120936" type="audio" first-edit="nothing" source-0="119803" master-source-0="119803" channels="1"/>
     <Region name="midi-19" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="121589" type="midi" first-edit="nothing" source-0="121587" master-source-0="121587"/>
@@ -915,6 +914,9 @@
   <Locations>
     <Location id="242" name="session" start="b23040" end="b489600" flags="IsSessionRange" locked="0" timestamp="1676792471" cue="0"/>
     <Location id="471" name="Loop" start="b345600" end="b437760" flags="IsAutoLoop" locked="0" timestamp="1676792471" cue="0"/>
+    <Location id="130608" name="start c part" start="b345600" end="b345600" flags="IsMark" locked="0" timestamp="1748923868" cue="0"/>
+    <Location id="130621" name="end c part" start="b437760" end="b437760" flags="IsMark" locked="0" timestamp="1748923958" cue="0"/>
+    <Location id="130631" name="start c part-range" start="b345600" end="b437760" flags="IsRangeMarker" locked="0" timestamp="1748923998" cue="0"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -8386,8 +8388,6 @@ a409600 1
           <AutomationList automation-id="envelope" id="120264" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
 a7741440000 1.0000001082112149
-a7741440000 1.0000001082112149
-a7741440000 1.0000001082112149
 </events>
           </AutomationList>
         </Envelope>
@@ -10221,7 +10221,6 @@ a409600 1
           <AutomationList automation-id="envelope" id="121544" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003840695366
 a1290240000 1.0000001511269474
-a1290240000 1.0000001511269474
 </events>
           </AutomationList>
         </Envelope>
@@ -10885,7 +10884,6 @@ a409600 1
       </ExportFilename>
     </SelectionExportProfile>
     <AddRouteDialog LastRouteType="AudioBus"/>
-    <ExportRevision revision="1"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="242" realtime="0"/>
@@ -10901,7 +10899,32 @@ a409600 1
       <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="moonlight-c-part-idea"/>
+        <Field name="label" enabled="1" value="moonlight-c-part-updated"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
+    <ExportRevision revision="1"/>
+    <RangeExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="130631" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="dd4f6f30-f054-4e0a-8d91-67eed5d79153"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="moonlight-c-part-only"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -10909,7 +10932,7 @@ a409600 1
         <Field name="time" enabled="0" value="T_None"/>
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
-    </ExportProfile>
+    </RangeExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
@@ -10983,7 +11006,7 @@ a409600 1
       <Window name="PM-475-17693" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1362-1440" visible="0" x-off="769" y-off="34" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="PM-1362-1440" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-20275-20509" visible="0" x-off="1064" y-off="161" x-size="818" y-size="390" custom-ui="1"/>
+      <Window name="P-20275-20509" visible="0" x-off="849" y-off="0" x-size="818" y-size="390" custom-ui="1"/>
       <Window name="P-20275-33386" visible="0" x-off="907" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="P-20275-20648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-20275-20509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
